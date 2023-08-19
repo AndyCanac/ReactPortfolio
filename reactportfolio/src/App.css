@@ -1,0 +1,21 @@
+body {
+  background-color: #120e16;
+  color: white;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #7d2bcf;
+}

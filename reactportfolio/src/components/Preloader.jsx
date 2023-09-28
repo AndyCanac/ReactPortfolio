@@ -1,14 +1,11 @@
-// Preloader.js
 import React from 'react';
-import './Preloader.css'; 
+import '../styles/Preloader.css'; 
 
 function Preloader() {
   return (
-    <div class="container">
-	    <div class="loader"></div>
-	    <div class="loader"></div>
-	    <div class="loader"></div>
-    </div>
+  <div className="loader_container">
+    <div className="loading-bar"></div>
+  </div>
   );
 }
 

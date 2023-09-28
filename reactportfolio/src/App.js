@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Preloader from "./components/Preloader";
+import Index from "./pages/index";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -11,11 +12,7 @@ function App() {
     }, 2000);
   }, []);
 
-  return (
-    <div className="App">
-      {isLoading ? <Preloader /> : <h1>Bienvenue sur mon portfolio</h1>}
-    </div>
-  );
+  return <div className="App">{isLoading ? <Preloader /> : <Index />}</div>;
 }
 
 export default App;

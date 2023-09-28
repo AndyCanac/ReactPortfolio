@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Calibre", sans-serif; */
+}
+
 body {
   background-color: #120e16;
-  color: white;
+  /* background-color: #ffffff; */
+  color: rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar-track {

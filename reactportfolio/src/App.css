@@ -3,6 +3,7 @@
 * {
   font-family: "Poppins", sans-serif;
   /* font-family: "Calibre", sans-serif; */
+  scroll-behavior: smooth;
 }
 
 body {

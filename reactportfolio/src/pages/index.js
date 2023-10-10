@@ -1,5 +1,4 @@
 import React from "react";
-// import AnimatedCursor from "react-animated-cursor";
 import Nav from "../components/Nav";
 import Timeline from "../components/timeline";
 import Hero from "../components/Hero";

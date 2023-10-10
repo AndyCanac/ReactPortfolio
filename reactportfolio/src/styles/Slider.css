@@ -1,5 +1,9 @@
 .package {
-  padding: 80px 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .projet-title {
@@ -24,9 +28,9 @@
   box-shadow: 0 0 1rem #7000ff;
 }
 .package-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  grid-gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   align-items: center;
   margin-top: 5rem;
 }

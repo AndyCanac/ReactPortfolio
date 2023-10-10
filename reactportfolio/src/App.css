@@ -9,6 +9,7 @@ body {
   background-color: #120e16;
   /* background-color: #ffffff; */
   color: rgb(255, 255, 255);
+  margin: 10px 5%;
 }
 
 ::-webkit-scrollbar-track {

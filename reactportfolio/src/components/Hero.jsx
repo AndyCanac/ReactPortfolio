@@ -11,7 +11,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 const Hero = () => {
 
   const [text] = useTypewriter({
-    words :["Andy Canac","passioné","curieux"],
+    words :["Lorem","Lorem","Lorem"],
     loop:{},
     typeSpeed:100,
     deleteSpeed:60,
@@ -29,10 +29,10 @@ const Hero = () => {
         </h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, similique?</p>
         <div className="hero_social">
-          <a href="#"><BsGithub /></a>
-          <a href="#"><BsLinkedin /></a>
-          <a href="#"><FiMail /></a>
-          <a href="#"><IoLogoGitlab /></a>
+          <a href="https://github.com/AndyCanac"><BsGithub /></a>
+          <a href="https://www.linkedin.com/in/andy-canac-040581216/"><BsLinkedin /></a>
+          <a href="#"><FiMail /></a>     
+          <a href="https://gitlab.com/AndyCanac"><IoLogoGitlab /></a>
         </div>
         <a href="#" className="btn">
           lorem
@@ -41,7 +41,7 @@ const Hero = () => {
       <div className="hero_img">
         <Lottie animationData={HeroImg}/>
       </div>
-    </div>
+    </div>  
   </section>
   )
 }

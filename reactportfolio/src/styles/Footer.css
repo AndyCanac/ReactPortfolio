@@ -1,0 +1,26 @@
+.icon-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 25px;
+}
+
+.icon-links a {
+  transition: ease 0.1s;
+  color: rgb(156 163 175);
+  &:hover {
+    transform: scale(1.5);
+  }
+}
+
+.copy {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  color: rgb(156 163 175);
+}
+
+.footer {
+  max-width: 1280px;
+}

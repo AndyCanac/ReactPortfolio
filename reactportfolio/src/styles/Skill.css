@@ -1,0 +1,44 @@
+.skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 145vh;
+  flex-direction: column;
+}
+
+.skills-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 50px;
+  position: relative;
+  text-align: center;
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -0.7rem;
+    left: 0;
+    width: 100%;
+    height: 0.35rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(90deg, #9f55ff, #7000ff);
+    box-shadow: 0 0 1rem #7000ff;
+  }
+}
+.section-title {
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: larger;
+  margin: 20px;
+}
+
+.global-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 145vh;
+  min-height: 125vh;
   flex-direction: column;
 }
 
@@ -40,5 +40,18 @@
 .skills-icon {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 40px;
+}
+
+.skill-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.gsone {
+  margin-right: 15px;
+}
+
+.gstwo {
+  margin-left: 15px;
 }

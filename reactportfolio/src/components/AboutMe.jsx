@@ -1,11 +1,15 @@
 import React from 'react'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import '../styles/AboutMe.css'
 
 
 const AboutMe = () => {
 
+    AOS.init();
+
   return (
-    <section className="about">
+    <section className="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1000">
         <div className="content">
             <img src="./assets/Andy.png"/>
             <div className="text">

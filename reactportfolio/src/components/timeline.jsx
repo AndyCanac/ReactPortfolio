@@ -3,35 +3,33 @@ import '../styles/timeline.css'
 
 const timeline = () => {
   return (
-      <section className="timeline-section">
-        <h1 className="timeline-title" data-aos="fade-up" data-aos-duration="1000">Mon parcours scolaire</h1>
-        <div className="timeline-items" data-aos="fade-up" data-aos-duration="1000">
-        <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-date">2023-2024</div>
-                <div className="timeline-content">
-                    <h3>Licence Responsable de projet informatique (RPI) alternance</h3>
+    <div class="timeline-container">
+        <div class="timeline">
+            <ul>
+            <li>
+                <div class="timeline-content">
+                    <h3 class="date">2023-2024</h3>
+                    <h1>Licence Responsable de projet informatique (RPI) alternance</h1>
                     <p>Ecole Isitech | Lyon 7ème arrondissement 69007</p>
                 </div>
-            </div>
-        <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-date">2021-2023</div>
-                <div className="timeline-content">
-                    <h3>BTS Systèmes Numérique option Informatique et Réseaux (SNIR)</h3>
+            </li>
+            <li>
+                <div class="timeline-content">
+                    <h3 class="date">2021-2023</h3>
+                    <h1>BTS Systèmes Numérique option Informatique et Réseaux (SNIR)</h1>
                     <p>Lycée ORT | Lyon 8ème arrondissement 69008</p>
                 </div>
-            </div>
-            <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-date">2020-2021</div>
-                <div className="timeline-content">
-                    <h3>baccalauréat sciences et technologies de l'industrie et du développement durable (STI2D)</h3>
+            </li>
+            <li>
+                <div class="timeline-content">
+                    <h3 class="date">2020-2021</h3>
+                    <h1>Baccalauréat sciences et technologies de l'industrie et du développement durable (STI2D)</h1>
                     <p>Lycée Frédéric Faÿs | Villeurbanne 69100</p>
                 </div>
-            </div>
+            </li>
+            </ul>
         </div>
-    </section>
+    </div>
   )
 }
 

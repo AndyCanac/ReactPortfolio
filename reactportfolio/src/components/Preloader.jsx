@@ -3,7 +3,7 @@ import '../styles/Preloader.css';
 
 function Preloader() {
   return (
-  <div className="loader_container">
+  <div className="loader-container">
     <div className="loading-bar"></div>
   </div>
   );

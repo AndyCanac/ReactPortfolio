@@ -1,11 +1,12 @@
 import React from "react";
 // import AnimatedCursor from "react-animated-cursor";
 import Nav from "../components/Nav";
-import Timeline from "../components/timeline";
 import Hero from "../components/Hero";
+import AboutMe from "../components/AboutMe";
+import Timeline from "../components/timeline";
+import Skills from  "../components/Skill";
 import Slider from "../components/Slider";
 import Footer from "../components/Footer";
-import AboutMe from "../components/AboutMe";
 
 const index = () => {
   return (
@@ -14,6 +15,7 @@ const index = () => {
       <Hero />
       <AboutMe />
       <Timeline />
+      <Skills />
       <Slider />
       <Footer />
     </>

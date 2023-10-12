@@ -59,10 +59,9 @@
   align-items: center;
   justify-content: center;
   transition: ease 0.1s;
-}
-
-.hero_social a:hover {
-  transform: scale(1.5);
+  &:hover {
+    transform: scale(1.5);
+  }
 }
 
 a.btn {
@@ -87,36 +86,29 @@ a.btn {
   border-radius: 6px;
   font-weight: 500;
   color: var(--color);
-}
-
-.btn:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background: var(--color);
-  height: 150px;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.btn:hover {
-  color: #fff;
-}
-
-.btn:before {
-  top: 100%;
-  left: 100%;
-  transition: all 0.7s;
-}
-
-.btn:hover:before {
-  top: -30px;
-  left: -30px;
-}
-
-.btn:active:before {
-  background: #3a0ca3;
-  transition: background 0s;
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  &:hover {
+    color: #fff;
+  }
+  &:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  &:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+  }
 }
 
 .hero_img {

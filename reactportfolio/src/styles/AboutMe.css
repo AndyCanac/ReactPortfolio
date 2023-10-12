@@ -96,18 +96,17 @@ button.learn-more .circle .icon.arrow {
   width: 1.125rem;
   height: 0.125rem;
   background: none;
-}
-
-button.learn-more .circle .icon.arrow::before {
-  position: absolute;
-  content: "";
-  top: -0.29rem;
-  right: 0.0625rem;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
-  transform: rotate(45deg);
+  &:before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+  }
 }
 
 button.learn-more .button-text {

@@ -58,10 +58,11 @@
   height: 50px;
   align-items: center;
   justify-content: center;
+  transition: ease 0.1s;
 }
 
 .hero_social a:hover {
-  color: rgb(89, 13, 177);
+  transform: scale(1.5);
 }
 
 a.btn {
@@ -134,7 +135,7 @@ a.btn {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .hero_container {
     grid-template-columns: 1fr;
     row-gap: 2rem;

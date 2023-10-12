@@ -8,6 +8,14 @@ const timeline = () => {
         <div className="timeline-items" data-aos="fade-up" data-aos-duration="1000">
         <div className="timeline-item">
                 <div className="timeline-dot"></div>
+                <div className="timeline-date">2023-2024</div>
+                <div className="timeline-content">
+                    <h3>Licence Responsable de projet informatique (RPI) alternance</h3>
+                    <p>Ecole Isitech | Lyon 7ème arrondissement 69007</p>
+                </div>
+            </div>
+        <div className="timeline-item">
+                <div className="timeline-dot"></div>
                 <div className="timeline-date">2021-2023</div>
                 <div className="timeline-content">
                     <h3>BTS Systèmes Numérique option Informatique et Réseaux (SNIR)</h3>

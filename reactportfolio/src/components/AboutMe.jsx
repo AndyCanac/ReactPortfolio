@@ -9,9 +9,9 @@ const AboutMe = () => {
         <div className="content">
             <img src="./assets/Andy.png"/>
             <div className="text">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <h5>Andy CANAC <span>20ans</span></h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt id accusantium, quis non officia doloremque ullam voluptatem dicta, at similique deserunt repellat esse? Dolor dignissimos doloremque provident deleniti eaque quis officia, nulla architecto molestias aliquam ratione maxime nam. Tempore qui quisquam totam quod. Ut incidunt iusto deserunt natus laboriosam dicta!</p>
+                <h1>A propos de moi</h1>
+                <h5>Andy CANAC <span>20 ans</span></h5>
+                <p>Je suis un passionné par le développement informatique mais plus particulièrement par le déveleppement web que sa soit front-end ou back-end.</p>
                 <form method="get" action="/assets/CvAndy.pdf" target="_blank">
                     <button class="learn-more">
                         <span class="circle" aria-hidden="true">

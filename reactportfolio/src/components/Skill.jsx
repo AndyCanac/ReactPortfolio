@@ -9,7 +9,7 @@ function Skill() {
     AOS.init();
 
     return (  
-        <section className='skills-section' data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1000">
+        <section id='skill' className='skills-section' data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1000">
             <h1 className='skills-title'>Mes compétences</h1>
             <div className='global-skill'>
                 <h3 className='section-title'>langages :</h3>

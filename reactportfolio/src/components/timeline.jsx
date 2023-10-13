@@ -3,7 +3,7 @@ import '../styles/timeline.css'
 
 const timeline = () => {
   return (
-    <div class="timeline-container">
+    <div id='timeline' class="timeline-container">
         <h2 className="projet-title">Mon parcours</h2>
         <div class="timeline">
             <ul>

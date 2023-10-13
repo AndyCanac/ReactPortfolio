@@ -55,11 +55,11 @@ const Nav = () => {
 
             <nav className="nav js-nav">
                 <ul>
-                    <li className="nav-item"><a href="#" style={{ '--i': 0 }}>Lorem</a></li>
-                    <li className="nav-item"><a href="#" style={{ '--i': 1 }}>Lorem</a></li>
-                    <li className="nav-item"><a href="#" style={{ '--i': 2 }}>Lorem</a></li>
-                    <li className="nav-item"><a href="#" style={{ '--i': 3 }}>Lorem</a></li>
-                    <li className="nav-item"><a href="#" style={{ '--i': 4 }}>Lorem</a></li>
+                    <li className="nav-item"><a href="#aboutMe" style={{ '--i': 0 }}>A propos</a></li>
+                    <li className="nav-item"><a href="#timeline" style={{ '--i': 1 }}>Parcours</a></li>
+                    <li className="nav-item"><a href="#skill" style={{ '--i': 2 }}>Compétences</a></li>
+                    <li className="nav-item"><a href="#package" style={{ '--i': 3 }}>Projets</a></li>
+                    <li className="nav-item"><a href="#" style={{ '--i': 4 }}>Contact</a></li>
                 </ul>
             </nav>
         </div>

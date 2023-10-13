@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import Timeline from "../components/timeline";
-import Skills from  "../components/Skill";
+import Skills from "../components/Skill";
 import Slider from "../components/Slider";
 import Footer from "../components/Footer";
 

@@ -34,8 +34,8 @@ const Hero = () => {
           <a href="https://codepen.io/andy-canac" target="_blank"><AiOutlineCodepen /></a>     
           <a href="https://gitlab.com/AndyCanac" target="_blank"><IoLogoGitlab /></a>
         </div>
-        <a href="#" className="btn">
-          lorem
+        <a href="#aboutMe" className="btn">
+          Contact
         </a>
       </div>
       <div className="hero_img">

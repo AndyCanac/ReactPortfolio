@@ -7,27 +7,14 @@ import '../styles/Footer.css'
 
 const Footer = () =>{
     return (
-<section>
-    <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <div className="icon-links">
-            <a href="https://github.com/AndyCanac" target="_blank">
-                <BsGithub/>
-            </a>
-            <a href="https://www.linkedin.com/in/andy-canac-040581216/" target="_blank">
-                <BsLinkedin/>
-            </a>
-            <a href="https://codepen.io/andy-canac">
-                <AiOutlineCodepen/>
-            </a>
-            <a href="https://gitlab.com/AndyCanac" target="_blank">
-                <IoLogoGitlab/>
-            </a>
-        </div>
-        <p className="copy">
-          © 2023 Andy CANAC
-        </p>
-    </div>
-</section>
+      <footer>
+      <div class="footer-links">
+        <a class="footer-link" href="#">Accueil</a>
+        <a class="footer-link" href="#">À propos</a>
+        <a class="footer-link" href="#">Services</a>
+        <a class="footer-link" href="#">Contact</a>
+      </div>
+    </footer>
     );
 }
 

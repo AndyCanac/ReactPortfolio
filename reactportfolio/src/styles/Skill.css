@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6rem;
   flex-direction: column;
+  margin: 6rem 5%;
 }
 
 .skills-title {

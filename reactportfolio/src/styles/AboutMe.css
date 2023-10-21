@@ -1,10 +1,9 @@
 .about {
-  width: 100%;
   background-color: #120e16;
   display: flex;
   justify-content: center;
-  margin: 6rem 0;
   align-items: center;
+  margin: 6rem 5%;
 }
 
 .about .content img {

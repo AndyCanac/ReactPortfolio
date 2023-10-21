@@ -1,13 +1,14 @@
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 2rem;
-}
-
 .hero {
   padding-top: 114px;
   position: relative;
   display: block;
+  margin: 6rem 5%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
 }
 
 .hero_container {

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 6rem 5%;
+  margin: 6rem 0%;
 }
 
 .about .content img {
@@ -29,7 +29,7 @@
 }
 
 .text h1 {
-  color: #ffcc94;
+  color: rgb(130, 69, 228);
   font-size: 55px;
   margin-bottom: 20px;
   text-transform: uppercase;

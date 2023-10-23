@@ -117,18 +117,6 @@ a.btn {
 }
 
 @media screen and (max-width: 768px) {
-  .hero_content h4 {
-    font-size: 16px;
-  }
-  .hero_content h1 {
-    font-size: 32px;
-  }
-  .hero_content p {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .hero_container {
     grid-template-columns: 1fr;
     row-gap: 2rem;
@@ -145,6 +133,18 @@ a.btn {
 
   .hero_img {
     text-align: center;
+  }
+
+  .hero_content h4 {
+    font-size: 16px;
+  }
+
+  .hero_content h1 {
+    font-size: 32px;
+  }
+
+  .hero_content p {
+    font-size: 15px;
   }
 }
 

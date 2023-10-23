@@ -9,7 +9,7 @@ const AboutMe = () => {
     AOS.init();
 
   return (
-    <section id='aboutMe' className="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1000">
+    <section id='aboutMe' className="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1300">
         <div className="content">
             <img src="./assets/Andy.png"/>
             <div className="text">

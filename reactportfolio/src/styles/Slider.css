@@ -36,11 +36,11 @@
 }
 .thum {
   position: relative;
+  width: 400px;
   transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   will-change: filter;
   cursor: pointer;
   &:hover {
-    filter: brightness(100%) hue-rotate(45deg);
     transform: scale(1.04);
     transition: all 0.3s ease-in-out;
   }
@@ -49,16 +49,4 @@
   width: 100%;
   height: auto;
   border-radius: 25px;
-}
-.thum h3 {
-  position: absolute;
-  font-size: 30px;
-  font-weight: 600;
-  text-align: right;
-  color: #fff;
-  top: 36px;
-  right: 40px;
-}
-.package-content > .thum:not(:hover) {
-  filter: blur(10px);
 }

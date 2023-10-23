@@ -3,7 +3,7 @@ import '../styles/timeline.css'
 
 const timeline = () => {
   return (
-    <div id='timeline' class="timeline-container">
+    <div id='timeline' class="timeline-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1300">
         <h2 className="projet-title">Mon parcours</h2>
         <div class="timeline">
             <ul>

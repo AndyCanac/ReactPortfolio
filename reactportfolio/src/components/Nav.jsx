@@ -34,7 +34,7 @@ const Nav = () => {
         <header className="header">
             <div className="container header-container">
                 <div className="header-logo">
-                    <a href="#"
+                    <a href="#hero"
                         ><img
                         className="nav-logo"
                             src="./assets/logo.svg"

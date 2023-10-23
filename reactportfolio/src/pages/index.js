@@ -15,7 +15,7 @@ const index = () => {
       <AboutMe />
       <Timeline />
       <Skills />
-      <Slider />
+      <Slider />  
       <Footer />
     </>
   );

@@ -7,7 +7,7 @@ const Slider = () => {
   AOS.init();
 
   return (
-    <section className="package" id="package" data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1000">
+    <section className="package" id="package" data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1300">
       <h2 className="projet-title">Mes projets</h2>
     <div className="package-content">
       <div className="box">

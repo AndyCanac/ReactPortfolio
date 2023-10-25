@@ -29,24 +29,59 @@
 
 .package-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
-  align-items: center;
   margin-top: 5rem;
 }
-.thum {
+
+.card {
   position: relative;
-  width: 400px;
-  transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  will-change: filter;
-  cursor: pointer;
-  &:hover {
-    transform: scale(1.04);
-    transition: all 0.3s ease-in-out;
-  }
+  width: 320px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
 }
-.thum img {
+
+.image img {
   width: 100%;
-  height: auto;
-  border-radius: 25px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.overlay button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }

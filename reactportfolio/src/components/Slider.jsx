@@ -15,26 +15,26 @@ const Slider = () => {
               <img src="./assets/cssBattle.png"/>
           </div>
           <div class="overlay">
-              <h3>lorem</h3>
-              <button>En savoir plus</button>
+              <h3>Css Battle </h3>
+              <a href="https://github.com/AndyCanac/CssBattle">En savoir plus</a>
           </div>
       </div>
       <div class="card">
           <div class="image">
-              <img src="./assets/cssBattle.png"/>
+              <img src="./assets/reactPortfolio.png"/>
           </div>
           <div class="overlay">
-              <h3>lorem</h3>
-              <button>En savoir plus</button>
+              <h3>React Portoflio</h3>
+              <a href="https://github.com/AndyCanac/ReactPortfolio">En savoir plus</a>
           </div>
       </div>
       <div class="card">
           <div class="image">
-              <img src="./assets/cssBattle.png"/>
+              <img src="./assets/NetflixClone.png"/>
           </div>
           <div class="overlay">
-              <h3>lorem</h3>
-              <button>En savoir plus</button>
+              <h3>Netflix Clone</h3>
+              <a href="#">Bientôt</a>
           </div>
       </div>
     </div>

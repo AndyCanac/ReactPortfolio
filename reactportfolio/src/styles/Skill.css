@@ -58,24 +58,3 @@
 .gstwo {
   margin-left: 15px;
 }
-
-/* @media only screen and (max-width: 350px) {
-  .skills-section {
-    margin-top: 3rem;
-  }
-  .skills-title {
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-  .skills-icon {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .skill-two {
-    flex-direction: column;
-  }
-  .gsone,
-  .gstwo {
-    margin: 0;
-  }
-} */

@@ -6,7 +6,7 @@ import '../styles/Footer.css'
 
 const Footer = () =>{
     return (
-<section class="footer" data-aos="fade-up" data-aos-anchor-placement="top-bottom"  data-aos-duration="1300">
+<section class="footer">
   <div class="footer-content">
     <div class="top">
       <a href="#hero">
@@ -22,7 +22,7 @@ const Footer = () =>{
     <hr />
     <div class="bottom">
       <div class="legal">
-        <span>©opyright Andy CANAC 2023</span>
+        <span>copyright © Andy CANAC 2023</span>
       </div>
     </div>
   </div>
